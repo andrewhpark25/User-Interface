@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 0 auto;
+	width: 600px;
+	
+}
+header nav {
+	
+	display: inline-block;
+	color: gray;
+	margin-top: 35px;
+	vertical-align: top;
+
+}
+
+header nav a {
+	margin-right: 25px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+
+header .logo {
+	margin-top: 20px;
+}
+
+#started div {
+	width: 48%;
+	margin: 0 1%;
+}
+
+#started .text h1 {
+	display: inline-block;
+	padding:1%;
+	text-align:center;
+	width:50%;
+	font-size: 60px;
+	margin-top: 70px;
+	margin-right: 20px;
+	vertical-align: top;
+	
+}
+
+#started .text button {
+	   font-size: 17px;
+	   background-color: white;
+		vertical-align: top;
+		margin-top: 0;
+		padding: 1%;
+		border: 1px solid black;
+		width:50%
+}
+
+#started img {
+	display: inline-block;
+	margin-top: 0;
+	width:48%;
+	vertical-align: top;
+	border: 1px solid white;
+
+}
+
+#content {
+
+	border-top: 1px solid black;
+	margin-top: 86px;
+	padding-top: 49px;
+}
+
+#content .top {
+	padding: 0 30px;
+} 
+
+#content .top .box {
+	width: 210px;
+	display: inline-block;
+	margin-right: 50px;
+	text-align: left;
+}
+
+#content .top .box :last-child{
+	margin-right:0;
+}
+
+#content .middle-img {
+	margin-top: 65px;
+}
+
+#content .bottom {
+	margin-top: 57px;
+	padding: 0 30px;
+}
+
+
+#content .bottom .box {
+	width: 130px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#content .bottom .box :last-child{
+	margin-right:0;
+}
+
+address {
+	margin-top: 77px;
+	border-top: 1px solid black;
+	padding: 49px 20px 0;
+}
+address p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 52px 0;
+	text-align: center;
+	font-size: 15px;
+}
